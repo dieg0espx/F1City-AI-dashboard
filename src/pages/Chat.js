@@ -76,9 +76,9 @@ function Chat() {
           break;
       }
        
-      console.log(textToInclude.length);
+      // console.log(textToInclude.length);
       let prompt = currentMessage + ' ' + strAnswerLength + ' ' + strWrittingStyle + (textToInclude.length > 0 ? ' with the following information: ' + textToInclude.join(' ') : '');
-      console.log(prompt);
+      // console.log(prompt);
       setPrompt(prompt);
     
     }, [textToInclude, answerLength, writtingStyle, currentMessage]);
