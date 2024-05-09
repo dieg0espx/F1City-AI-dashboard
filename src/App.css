@@ -313,6 +313,7 @@ html {
   padding: 3px;
   background-color: white;
   border: 1px solid lightgray;
+  color: gray;
 }
 .sidebar .section button:hover {
   background-color: #61dafb;
